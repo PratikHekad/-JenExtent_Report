@@ -1,3 +1,4 @@
+
 window.onload = function () {
   let cookies = document.cookie;
   let cookieValue = cookies.split('=');
