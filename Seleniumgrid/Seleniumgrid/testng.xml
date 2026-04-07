@@ -1,0 +1,14 @@
+
+
+<suite name="GridSuite" parallel="tests" thread-count="2">
+
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.DashboardTest"/>
+        </classes>
+    </test>
+
+
+</suite>
